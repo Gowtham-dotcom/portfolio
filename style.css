@@ -309,7 +309,7 @@ footer{
          display: none;
      }
      .sticky{
-         width: 25rem;
+         display: flex;
      }
      .secondpage{
          display: grid;
