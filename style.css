@@ -183,9 +183,10 @@ footer{
     justify-content: center;
 }
 .social{
-    display: inline-block;
+    display: block;
     align-items: center;
     text-align: center;
+    width: 400px;
     /* margin-left: 500px;
      margin-top: 20px; */
     /* margin-bottom: 20px; */
@@ -299,9 +300,6 @@ footer{
      .grid{
          margin-left: 7%;
      }
-     .social{
-         margin-left: 33%;
-     }
  }
  @media  screen and (max-width : 600px) {
      .container img{
@@ -318,7 +316,7 @@ footer{
          height: 700px;
      }
     #home , #project , #skills{
-        width: 100%;
+        width: 98%;
     }
     .grid{
         display: grid;
@@ -336,9 +334,5 @@ footer{
     }
     .image1 img{
         width: 24rem;
-    }
-    .social{
-        margin-left: 25%;
-        margin-right: 25%;
     }
  }
