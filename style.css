@@ -255,6 +255,9 @@ footer{
 #road{
     z-index: 2;
 }
+.project-button{
+    width: 10rem;
+}
  @media screen and (max-width: 1236px) {
     #home , #project , #skills{
         width: 100%;
@@ -334,5 +337,10 @@ footer{
     }
     .image1 img{
         width: 24rem;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
  }
